@@ -1,0 +1,58 @@
+Code Book
+========
+
+Raw data collection
+-------------------
+
+### Collecting the Data
+
+Raw data  was gathered from Machine Learning repository. The data set that was used was 
+the Human Activity Recognition Using Smartphones Data Set from 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+An experiment was carried out with a group of volunteers, each one  particies in six activities
+(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). Each person wore a 
+smartphone (Samsung Galaxy S II) on the waist.   Smartphones are an effective way of gather information, because
+they come with embedded built-in sensors such as microphones, dual cameras, accelerometers,
+gyroscopes, etc.
+
+
+Project Details
+-------------------
+
+The raw data sets are processed with run_analisys.R script to create a tidy data
+set
+
+### Merge training and test sets
+
+Test and training data  are merged to obtain a single data set (data.one).
+Variables are labelled with the names assigned by original
+collectors (features.txt).
+
+### Extract mean and standard deviation variables
+
+From the merged data set  I extracted data  with only the
+values of estimated mean (variables with labels that contain "mean") and standard
+deviation (variables with labels that contain "std").
+
+### Use descriptive activity names
+
+A new column is added with the activity description.
+Activity id column is used to look up descriptions in activity_labels.txt.
+
+### Label variables appropriately
+
+Labels given from the original collectors were changed:
+* to obtain valid R names without parentheses, dashes and commas
+* to obtain more descriptive labels
+
+### Create a tidy data set
+
+From the data set is created a final tidy data set .
+
+The tidy data set contains observations with variables divided in:
+
+*  an activity label : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+
+
