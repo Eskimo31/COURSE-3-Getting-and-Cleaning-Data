@@ -36,14 +36,12 @@ deviation (variables with labels that contain "std").
 
 ### Use descriptive activity names
 
-A new column is added with the activity description.
-Activity id column is used to look up descriptions in activity_labels.txt.
+ The activity description gets added to the table.  You can look up descriptions in activity_labels.txt.
 
 ### Label variables appropriately
 
-Labels given from the original collectors were changed:
-* to obtain valid R names without parentheses, dashes and commas
-* to obtain more descriptive labels
+Labels given from the original collectors were changed
+
 
 ### Create a tidy data set
 
