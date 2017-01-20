@@ -10,11 +10,10 @@ Raw data  was gathered from Machine Learning repository. The data set that was u
 the Human Activity Recognition Using Smartphones Data Set from 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-An experiment was carried out with a group of volunteers, each one  particies in six activities
+An experiment was conducted with a group of volunteers, doing  six activities
 (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). Each person wore a 
-smartphone (Samsung Galaxy S II) on the waist.   Smartphones are an effective way of gather information, because
-they come with embedded built-in sensors such as microphones, dual cameras, accelerometers,
-gyroscopes, etc.
+smartphone (Samsung Galaxy S II) on the waist, this allows for the gathering of information.
+
 
 
 Project Details
